@@ -1,0 +1,87 @@
+@font-face {
+    font-family: ballet;
+    src: url(fonts/Ballet-Regular-VariableFont_opsz.ttf);
+}
+
+body{
+    background-image: url(Images/page1bg.png);
+    background-color: hsl(36, 31%, 90%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    text-align: center;
+}
+
+#question{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-family: ballet;
+    color: black;
+    text-align: center;
+    font-size: 120px;
+}
+
+.under{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    transform: translate(-70%, -60%);
+    width: 20px;
+    height: auto;
+}
+
+#name{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(97, 14, 17);
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttons{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+
+    text-decoration: none;
+    background-color: rgb(97, 14, 17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: hsl(36, 31%, 90%);
+    border-radius: 30px;
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons:hover{
+    background-color: rgb(125, 189, 125);
+}
+
+.buttons:active{
+    background-color: rgb(93, 141, 93);
+    color: white;
+}
+
+.buttons:visited{
+    font-family: silkreg;
+}
